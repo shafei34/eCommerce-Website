@@ -35,7 +35,7 @@ app.use(express.json());
 // })
 
 app.get("*", (req, res) => {
-  res.status(404).send("404, Not Found.");
+  res.status(404).send("404, Not Found. test ci/cd");
 });
 
 const port = process.env.PORT || 5050;
